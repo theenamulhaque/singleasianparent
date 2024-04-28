@@ -1,0 +1,399 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles/style.css">
+    <!-- font awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+ 
+    <!-- NAVBAR AND BANNER START -->
+<header class="headerBg">
+     <!-- nav start -->
+    <nav class="navbar navbar-expand-lg p-0 m-0 bg-black">
+        <div class="container">
+            <a class="navbar-brand navBarMainLogo" href="#"><img src="images/main logo.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                </ul>
+                <form class="d-flex me-2" role="search">
+                    <button class="btn btn-outline-success navBtnJoin" type="submit">Join</button>
+                </form>
+                <form class="d-flex" role="search">
+                    <button class="btn btn-outline-success navBtnSignin" type="submit">Signin</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+     <!-- nav end -->
+
+<section class="bannerBox mx-auto">
+    <div class="bannerInner text-center">
+        <h1>The Leading Single Asian <br> Parent Site</h1>
+        <h3 class="">Start Your Search</h3>
+    </div>
+    <div class="formBox d-flex justify-content-center align-items-center">
+        <div class="formTitle">
+            <h6 class="me-3 text-white">I am a British Asian</h6>
+        </div>
+        <div class="checkBoxGrid d-flex">
+            <div class="form-check formSingleBox me-2">
+                <input class="form-check-input border-2 border border-black" type="radio" name="flexRadioDefault"
+                    id="flexRadioDefault2" checked>
+                <label class="form-check-label checkBoxOption" for="flexRadioDefault2">
+                    Men
+                </label>
+            </div>
+            <div class="form-check formSingleBox me-2">
+                <input class="form-check-input border-2 border border-black" type="radio" name="flexRadioDefault"
+                    id="flexRadioDefault2" checked>
+                <label class="form-check-label checkBoxOption" for="flexRadioDefault2">
+                    Women
+                </label>
+            </div>
+            <div class="form-check formSingleBox">
+                <input class="form-check-input border-2 border border-black" type="radio" name="flexRadioDefault"
+                    id="flexRadioDefault2" checked>
+                <label class="form-check-label checkBoxOption" for="flexRadioDefault2">
+                    I am not Asian
+                </label>
+            </div>
+        </div>
+    </div>
+    <div class="text-center mt-3 text-white formTitle">
+        <h5 class="mt-4 mb-3">Look for someone who is</h5>
+    </div>
+    <!-- form -->
+    <div class="searchForm d-flex justify-content-start align-content-center px-5">
+        <div class="ageForm d-flex justify-content-start align-content-center">
+            <h6 class="text-white mt-2 me-2">Age</h6>
+            <select class="form-select ageForm" aria-label="Default select example">
+                <option selected>25</option>
+                <option value="1">26</option>       
+                <option value="2">27</option>
+                <option value="3">28</option>
+            </select>
+        </div>
+        <div class="toForm d-flex justify-content-center align-content-center me-5">
+            <h6 class="text-white mt-2 me-2">To</h6>
+            <select class="form-select ageForm" aria-label="Default select example">
+                <option selected>35</option>
+                <option value="1">37</option>
+                <option value="2">38</option>
+                <option value="3">40</option>
+            </select>
+        </div>
+        <div class="relForm d-flex justify-content-start align-content-center">
+            <h6 class="text-white mt-2 me-2">Religious</h6>
+            <select class="form-select relForm" aria-label="Default select example">
+                <option selected>Islam</option>
+                <option value="1">Hinduism</option>
+                <option value="2">Christianity</option>
+                <option value="3">Sikhism</option>
+            </select>
+        </div>
+    </div>
+    <div class="bannerBoxBtn text-center">
+        <a href="#" class="bannerBtn">Continue</a>
+    </div>
+</section> 
+
+</header>
+
+<!-- NAVBAR AND BANNER END -->
+
+<!-- BODY START -->
+
+<main>
+    <!-- grid sec start -->
+    <div class="gridSection container d-flex justify-content-between align-content-center p-5">
+        <div class="card cardBox rounded-4 mb-3 p-3" style="width: 18rem;">
+            <div class="card-body">
+                <img src="images/icons/heart_icon.png" alt="" class="mb-2">
+                <h6 class="card- mt-3">Find single parents in your location</h6>
+            </div>
+        </div>
+        <div class="card cardBox rounded-4 mb-3 p-3" style="width: 18rem;">
+            <div class="card-body">
+                <img src="images/icons/user.png" alt="" class="mb-2">
+                <h6 class="card- mt-3">Find single parents in your location</h6>
+            </div>
+        </div>
+        <div class="card cardBox rounded-4 mb-3 p-3" style="width: 18rem;">
+            <div class="card-body">
+                <img src="images/icons/algorithm.png" alt="" class="mb-2">
+                <h6 class="card- mt-3">AI-BASED algorithm to match profile through users</h6>
+            </div>
+        </div>
+        <div class="card cardBox rounded-4 mb-3 p-3" style="width: 18rem;">
+            <div class="card-body">
+                <img src="images/icons/filter.png" alt="" class="mb-2">
+                <h6 class="card- mt-3">Voice and Video <br> Chat</h6>
+            </div>
+        </div>
+
+    </div>
+    <!-- grid sec end -->
+
+    <!-- Find Special Someone Start -->
+    <div class="specialSection text-center">
+        <h3 class="text-white mt-5">Find your Special Someone</h3>
+        <div class="specialSectionGrid d-flex justify-content-center align-content-center p-4">
+            <div class=" bg-transparent border-0 rounded-4 mb-3 p-3" style="width: 18rem;">
+                <div class="card-body specialGridBox">
+                    <img src="images/icons/signup_icon.png" alt="" class="mb-2">
+                    <h6 class="card- mt-4 text-white">Sign Up</h6>
+                    <p class="text-white">Register for free & put up your Matrimony Profile</p>
+                </div>
+            </div>
+            <div class="card bg-transparent border-0 rounded-4 mb-3 p- mx-5" style="width: 18rem;">
+                <div class="card-body specialGridBox">
+                    <img src="images/icons/connect_icon.png" alt="" class="mb-2">
+                    <h6 class="card- mt-4 text-white">Connect</h6>
+                    <p class="text-white">Register for free & put up your Matrimony Profile</p>
+                </div>
+            </div>
+            <div class="card bg-transparent border-0 rounded-4 mb-3 p-3" style="width: 18rem;">
+                <div class="card-body specialGridBox">
+                    <img src="images/icons/interact_icon.png" alt="" class="mb-2">
+                    <h6 class="card- mt-4 fw-bold text-white">Interact</h6>
+                    <p class="text-white">Register for free & put up your Matrimony Profile</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Find Special Someone End -->
+
+    <!-- Match Section Start -->
+    <div class="matchSection text-center">
+        <h2 class="text-danger mt-5">Why Match?</h2>
+        <h5 class="text-black">Find a person you match with</h5>
+        <p class="text-black">Our members are looking for their very own love story and we do everything to help them
+            achieve it.</p>
+        <div class="specialSectionGrid d-flex justify-content-center align-content-center p-4">
+            <div class=" bg-transparent border-0 rounded-4 mb-3 p-3">
+                <div class="card-body specialGridBox">
+                    <img src="images/match_mobile.png" alt="" class="mb-2">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Match Section end -->
+
+    <!-- Video Section start -->
+    <div class="videoSection text-start">
+        <div class="specialSectionGrid container d-flex justify-content-between align-content-center p-4">
+            <div class="card bg-transparent border-0 videoCardBox rounded-4 mb-3 p-3" style="width: 25rem;">
+                <div class="card-body">
+                    <h3 class="card- mt-3 text-white">Free Video <br> <span class="callingTxt">Calling</span> </h3>
+                    <p class="text-black mt-4 text-white">You decided who you can call and you never have to share your
+                        phone number.</p>
+                    <button class="btn btn-primary videoBtn"><i class="fa-regular fa-face-smile me-2 faceIcon"></i>Visit
+                        our Safety Centre</button>
+                </div>
+            </div>
+            <div class="mb-3 p-3">
+                <div class="card-body">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Video Section end -->
+
+    <!-- Broad Section start -->
+    <div class="broadSection text-start">
+        <div class="broadSectionGrid d-flex justify-content-center align-content-center p-4">
+            <div class="border-0 rounded-4 mb-3 p-3">
+                <div class="card-body broadGridBox">
+                    <img src="images/broad_mobile.png" alt="" class="mb-2">
+                </div>
+            </div>
+            <div style="max-width: 35rem;"
+                class=" p-4 d-flex justify-content-center align-items-center border-0 rounded-4 mb-3 p- mx-5">
+                <div class="card-body specialGridBox text-start">
+                    <h2 class="card- mt-4 text-black mb-3">Broad visibility <br> of your profile</h2>
+                    <p class="text-black">There's more to Match than just Match. Register with us.
+                        create your perfect online dating profile and so you don't miss
+                        out on a chance to find that special someone, your profile can
+                        be made visible to members of out dating services for the
+                        over 50s or single parents if you're part of categories of singles
+                        they address and you consented to it. That means you will
+                        increase your chances of being contacted!
+                        <br><br>
+                        For more information about your profile visibility <a href="#" class="broadLink">click here</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Broad Section end -->
+
+    <!-- safety Section start  -->
+    <div class="safetySection text-start">
+        <div class="safetySectionGrid d-flex justify-content-between align-content-center">
+            <div style="max-width: 45rem;"
+                class="p-5 d-flex justify-content-center align-items-center border-0 rounded-4">
+                <div class="card-body safetyGridBox text-start">
+                    <h2>Safety first, <br> second, and always.</h2>
+                    <p>Your safety is our number one priority.
+                        <br><br>
+                        Our safety Center is a knowledge hub, containing
+                        all the support you need to date with confidence.
+                    </p>
+                    <button class="btn btn-primary safetyBtn"><i
+                            class="fa-regular fa-face-smile me-2 faceIcon"></i>Visit our Safety
+                        Centre</button>
+                </div>
+            </div>
+            <div class="rounded-4 m-3 safetyGridBg">
+                <div class="card-body broadGridBox">
+                    <img src="images/safety images.png" alt="" class="mb-2">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- safety Section end  -->
+
+    <!-- verification Section start  -->
+    <div class="verificationSection text-start">
+        <div class="verificationSectionGrid d-flex justify-content-center align-content-center p-4">
+            <div class="border-0 rounded-4 mb-3 p-3" style="max-width: 65rem;">
+                <div class="card-body verificationGridBox">
+                    <img src="images/verification.png" alt="" class="mb-2">
+                </div>
+            </div>
+            <div style="max-width: 25rem;"
+                class=" p-4 d-flex justify-content-center align-items-center border-0 rounded-4 mb-3 p- mx-5">
+                <div class="card-body verificationGridBox text-start">
+                    <h2 class="card- mt-4 text-black mb-3">ID Verification</h2>
+                    <p class="text-black">ID Verification members are approved through
+                        our secure passport or driver's license
+                        checks. Know your're chatting to trustworthy
+                        members by looking out for the blue tick on
+                        your matches profile.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- verification Section end  -->
+
+    <!-- Success Section start  -->
+    <div class="successSection text-start">
+        <div class="sucessSectionGrid d-flex justify-content-between align-content-center">
+            <div class="d-flex justify-content-center align-items-center border-0 rounded-4">
+                <div class="card-body sucessGridTxtBox text-start">
+                    <h2>Our Success <br> Stories</h2>
+                    <h5>2.6M people have already met
+                        someone on Match*. Could you be next?</h5>
+                    <p>Your safety is our number one priority.
+                        Our safety Center is a knowledge hub, containing
+                        all the support you need to date with confidence.
+                    </p>
+                    <button class="btn btn-primary successBtn"><i
+                            class="fa-regular fa-face-smile me-2 faceIcon"></i>Visit
+                        our Safety
+                        Centre</button>
+                </div>
+            </div>
+            <div class="successGridImg" style="max-width: 45rem;">
+                <div class="card-body successGridBox">
+                    <img src="images/success_1.png" alt="" class="mb-2">
+                </div>
+                <div class="card-body successGridBox">
+                    <img src="images/success2.png" alt="" class="mb-2">
+                </div>
+                <div class="card-body successGridBox">
+                    <img src="images/success3.png" alt="" class="mb-2">
+                </div>
+                <div class="card-body successGridBox">
+                    <img src="images/success4.png" alt="" class="mb-2">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Success Section end  -->
+</main>
+<!-- BODY END -->
+
+<!-- FOOTER START -->
+<div class="footer">
+    <div class="footerSection text-start">
+        <div class="sucessSectionGrid d-flex justify-content-between align-content-center">
+            <div style="max-width: 25rem;" class="d-flex justify-content-start align-items-start border-0 rounded-4">
+                <div class="card-body footerGridLogoBox text-start">
+                    <a href="#"><img src="images/footer_logo.png" alt="" class="img-fluid"></a>
+                    <div class=" px-5 mt-5 socialIcons">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                        <i class="fa-brands fa-square-instagram"></i>
+                    </div>
+                    <small class="text-white px-5">© 2024 Single Asian Parent. All right reserved.</small>
+                </div>
+            </div>
+            <div class="footerGridMenu">
+                <div class="card-body footerMenuGridBox">
+                    <h6 class="text-white">Company</h6>
+                    <ul>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Press Kit</a></li>
+                    </ul>
+                </div>
+                <div class="card-body footerMenuGridBox">
+                    <h6 class="text-white">Product</h6>
+                    <ul>
+                        <li><a href="#">Signup</a></li>
+                        <li><a href="#">Feature List</a></li>
+                        <li><a href="#">Success Stories</a></li>
+                    </ul>
+                </div>
+                <div class="card-body footerMenuGridBox me-4">
+                    <h6 class="text-white">Help & Support</h6>
+                    <ul>
+                        <li><a href="#">Help & Support</a></li>
+                        <li><a href="#">Safety</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Behavior</a></li>
+                    </ul>
+                </div>
+                <div class="card-body footerMenuGridBox ps-4">
+                    <h6 class="text-white">Legal</h6>
+                    <ul>
+                        <li><a href="#">Terms</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Cookies</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- FOOTER END -->
+
+
+
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

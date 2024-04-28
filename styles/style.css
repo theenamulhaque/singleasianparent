@@ -1,0 +1,627 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Island+Moments&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+
+*{
+    padding: 0;
+    margin:  0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+
+/* nav start***************
+****/
+
+.headerBg {
+    /* width: 100vw; */
+    height: 150vh;
+    background-image: url(../images/banner-image.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.navBtnJoin {
+    border-radius: 50px;
+    background: linear-gradient(0deg, rgba(84, 43, 40, 1) 0%, rgba(223, 65, 95, 1) 100%);
+    font-weight: 700;
+    color: #fff;
+    padding: 16px 60px;
+    border: none;
+}
+
+.navBtnSignin {
+    border-radius: 50px;
+    background: transparent;
+    font-weight: 700;
+    color: #ffffff;
+    padding: 16px 60px;
+    border: 1px solid #ffffff;
+}
+
+.navBarMainLogo {
+    margin-top: -10px;
+}
+
+/* nav end ************
+
+/* BannerBox Start ************
+******/
+
+.bannerBox {
+    width: 50%;
+    margin-top: 20%;
+    background-color: rgba(15, 15, 15, 0.329);
+    padding: 1%;
+    border-radius: 20px;
+}
+
+.bannerBox .bannerInner h1 {
+    text-align: center;
+    color: #fff;
+    font-size: 35px;
+    font-weight: 100;
+}
+
+.bannerBox .bannerInner h3{
+    text-align: center;
+        font-family: "Island Moments", cursive;
+        color: #fff;
+        font-size: 59px;
+        font-weight: 100;
+}
+
+.form-check-input:checked{
+    background-color: #DB405D;
+}
+
+.formSingleBox{
+    background-color: #f8f8f8;
+    padding: 15px;
+    padding-left: 40px;
+    border-radius: 50px;
+}
+
+.ageForm {
+    width: 55%;
+}
+
+.toForm {
+    width: 55%;
+}
+
+.relForm {
+    width: 100%;
+}
+
+.bannerBoxBtn{
+    margin-top: 65px;
+    position: relative;
+    top: 28px;
+}
+
+.bannerBtn{
+    border-radius: 50px;
+        background: linear-gradient(0deg, rgba(84, 43, 40, 1) 0%, rgba(223, 65, 95, 1) 100%);
+        font-weight: 700;
+        color: #fff;
+        padding: 16px 100px;
+        border: none;
+        text-decoration: none;
+        border: 3px solid #e9e9e9;
+        margin-top: 100px;
+    }
+
+.bannerBtn:hover {
+        background: linear-gradient(0deg, rgba(223, 65, 95, 1), rgba(84, 43, 40, 1) 100%);
+}
+
+select[multiple]:focus option:checked {
+    background: red linear-gradient(0deg, red 0%, red 100%);
+}
+/* BannerBox End ************
+******/
+
+
+
+/* Grid Section start ************
+******/
+.cardBox {
+    border: 1px solid #db405c70;
+}
+
+.cardBox h6{
+    font-size: 14px;
+}
+
+
+/* Grid Section start ************
+******/
+
+
+/* Special Section start ************
+******/
+
+.specialSection{
+    padding: 120px 0;
+    background-image: url(../images/special_banner.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.specialGridBox p{
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.specialSection h3{
+    font-size: 45px;
+    font-weight: 300;
+}
+
+/* Special Section end ************
+******/
+
+/*  Match Section Start ************
+******/
+
+.matchSection{
+    padding: 120px 0;
+}
+
+.matchSection h2{
+    font-size: 45px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.matchSection h5 {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.matchSection p {
+    font-size: 17px;
+    font-weight: 300;
+    padding: 0px 30%;
+}
+
+/* Match Section End ************
+******/
+
+/* Video Section Start ************
+******/
+.videoSection {
+    padding: 120px 0;
+    background-image: url(../images/video_bg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.videoCardBox h3{
+    font-size: 60px;
+    font-weight: 300;
+}
+
+.callingTxt{
+    font-size: 35px;
+    font-weight: 500;
+    padding: 10px 30px;
+    background-color: #fff;
+    color: #DB405D;
+    border-radius: 10px;
+}
+
+.videoBtn, .safetyBtn{
+    background-color: transparent;
+    padding: 8px 18px;
+    border: 3px solid #fff;
+    border-radius: 50px;
+    margin-top: 10px;
+}
+
+.videoBtn:hover {
+    background-color: #fff;
+    color: #DB405D;
+    border: 3px solid #fff;
+}
+.safetyBtn:hover {
+    background-color: #fff;
+    color: #DB405D;
+    border: 3px solid #fff;
+}
+
+
+/* Video Section End ************
+******/
+
+/* Broad Section start ************
+******/
+.broadSection, .verificationSection {
+    padding: 80px 0;
+}
+
+.broadGridBox img{
+    width: 500px;
+}
+
+.specialGridBox, .verificationGridBox h2 {
+    font-size: 45px;
+    font-weight: 300;
+    color: #DB405D !important;
+}
+
+.specialGridBox, .verificationGridBox p {
+    font-size: 15px;
+    font-weight: 300;
+    color: #131313 !important;
+}
+
+.broadLink {
+    color: #DB405D !important;
+    font-weight: 500;
+}
+
+.broadLink:hover{
+    color: #000 !important;
+}
+
+/* Broad Section end ************
+******/
+
+/* Safety Section start ************
+******/
+.safetySection {
+    padding: 80px 100px;
+    background-image: url(../images/safety_bg.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+
+.safetySectionGrid{
+    background-color: #DB405D;
+    border-radius: 32px;
+}
+
+.safetyGridBox h2{
+    font-size: 45px;
+    font-weight: 300;
+    color: #fff;
+}
+
+.safetyGridBox p{
+    font-size: 15px;
+    font-weight: 300;
+    color: #fff;
+    margin-top: 10px;
+}
+
+/* Safety Section end ************
+******/
+
+/* Success Section start ************
+******/
+.successSection{
+    padding: 150px 100px;
+    background-color: #FCF1F2;
+}
+
+.sucessGridTxtBox{
+    padding: 0px 40% 0 0;
+}
+
+.successGridImg {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.successGridBox img{
+    width: 100%;
+}
+
+.successBtn {
+    background-color: #DB405D;
+        padding: 15px 18px;
+        border: none;
+        border-radius: 50px;
+        margin-top: 10px;
+}
+
+.successBtn:hover {
+    background-color: #fcfcfc;
+    color: #DB405D;
+}
+/* Success Section end ************
+******/
+
+/* Footer Section start ************
+******/
+.footerSection{
+    padding: 80px 50px 50px 50px;
+    background-color: #161616;
+}
+
+.socialIcons{
+    color: #DB405D;
+    margin-bottom: 20px;
+}
+
+
+.socialIcons i{
+    margin-right: 20px;
+    font-size: 20px;
+    transition: 0.2s ease-in-out;
+}
+
+.socialIcons i:hover{
+    color: #fff;
+    transition: 0.2s ease-in-out;
+}
+
+
+small{
+    font-weight: 300;
+    font-size: 13px;
+}
+
+.footerGridMenu {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+        
+}
+
+.footerMenuGridBox{
+    margin-right: 0px;
+}
+
+.footerMenuGridBox h6{
+    font-size: 17px;
+}
+
+.footerMenuGridBox ul {
+    padding: 0;
+}
+
+.footerMenuGridBox ul li {
+    list-style: none;
+    margin-top: 20px;
+}
+
+
+.footerMenuGridBox ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 200;
+    transition: transform 0.5s ease-in-out;
+    transition: 0.2s ease-in-out;
+    font-size: 13px;
+}
+
+.footerMenuGridBox ul li a:hover {
+    padding: 5px 10px;
+    border-radius: 30px;
+    background-color: #e9e9e944;
+    color: #ffffff;
+    transition: 0.2s ease-in-out;
+    font-weight: 600;
+}
+/* Footer Section end ************
+******/
+
+
+
+/*===========
+ RESPONSIVE CODE START==========
+  ************
+******/
+
+@media (max-width: 480px) {
+
+    .headerBg {
+            /* width: 100vw; */
+            height: 100vh;
+        }
+
+    .bannerBox {
+            width: 90%;
+        }
+
+        .bannerBox .bannerInner h1 {
+            font-size: 20px;
+            font-weight: 400;
+            margin-top: 10px;
+        }
+    
+        .bannerBox .bannerInner h3 {
+            font-size: 20px;
+        }
+
+        .formSingleBox {
+            background-color: #f8f8f8;
+            padding: 8px;
+            padding-left: 30px;
+        }
+
+        .formBox{
+            flex-direction: column;
+        }
+
+        .checkBoxOption{
+            font-size: 12px !important;
+        }
+
+        .formTitle h5{
+            font-size: 16px;
+        }
+
+        .ageForm h6 {
+            font-size: 14px;
+            margin-top: 10px;
+        }
+        .toForm h6 {
+            font-size: 14px;
+            margin-top: 10px;
+        }
+        .relForm h6 {
+            font-size: 14px;
+            margin-top: 10px;
+        }
+
+        .bannerBoxBtn {
+               position: relative;
+               top: 18px;
+           }
+
+        .bannerBtn {
+            padding: 16px 80px;
+
+        }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+        .headerBg {
+                height: 120vh;
+            }
+        
+            .bannerBox {
+                width: 90%;
+            }
+        
+            .bannerBox .bannerInner h1 {
+                font-size: 20px;
+                font-weight: 400;
+                margin-top: 10px;
+            }
+        
+            .bannerBox .bannerInner h3 {
+                font-size: 20px;
+            }
+        
+            .formSingleBox {
+                background-color: #f8f8f8;
+                padding: 8px;
+                padding-left: 30px;
+            }
+        
+            .formBox {
+                flex-direction: column;
+            }
+        
+            .checkBoxOption {
+                font-size: 12px !important;
+            }
+        
+            .formTitle h5 {
+                font-size: 16px;
+            }
+        
+            .ageForm h6 {
+                font-size: 14px;
+                margin-top: 10px;
+            }
+
+            .toForm {
+                margin-right: 50px;
+            }
+        
+            .toForm h6 {
+                font-size: 14px;
+                margin-top: 10px;
+            }
+        
+            .relForm h6 {
+                font-size: 14px;
+                margin-top: 10px;
+            }
+        
+            .bannerBoxBtn {
+                position: relative;
+                top: 18px;
+            }
+        
+            .bannerBtn {
+                padding: 16px 80px;
+        
+            }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+            .headerBg {
+                    height: 150vh;
+                }
+            
+                .bannerBox {
+                    width: 90%;
+                }
+            
+                .bannerBox .bannerInner h1 {
+                    font-size: 30px;
+                    font-weight: 200;
+                    margin-top: 10px;
+                }
+            
+                .bannerBox .bannerInner h3 {
+                    font-size: 50px;
+                }
+            
+                .formSingleBox {
+                    background-color: #f8f8f8;
+                    padding: 8px;
+                    padding-left: 30px;
+                }
+            
+                .formBox {
+                    flex-direction: column;
+                }
+
+                .checkBoxOption {
+                    font-size: 12px !important;
+                }
+            
+                .formTitle h5 {
+                    font-size: 16px;
+                }
+            
+                .ageForm h6 {
+                    font-size: 14px;
+                    margin-top: 10px;
+                }
+            
+                .toForm {
+                    margin-right: 50px;
+                }
+            
+                .toForm h6 {
+                    font-size: 14px;
+                    margin-top: 10px;
+                }
+            
+                .relForm h6 {
+                    font-size: 14px;
+                    margin-top: 10px;
+                }
+            
+                .bannerBoxBtn {
+                    position: relative;
+                    top: 18px;
+                }
+            
+                .bannerBtn {
+                    padding: 16px 80px;
+            
+                }
+
+}
+
